@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765845972869",
+    "project_id": "resort-cedb0",
+    "storage_bucket": "resort-cedb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765845972869:android:d44933b81cc24e871946ec",
+        "android_client_info": {
+          "package_name": "com.thulani.longevity_resort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765845972869-lra5cge8nu9ogck2dj0dff5gv63hf80c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB648z3YyGTcdD5XT4z8vt9nkJZYg1r0ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765845972869-lra5cge8nu9ogck2dj0dff5gv63hf80c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
