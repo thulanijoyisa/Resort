@@ -22,13 +22,13 @@ class SuccessCheckoutPage extends StatelessWidget {
             Text(
               'Well Booked 😍',
               style: blackTextStyle.copyWith(
-                fontSize: 32,
+                fontSize: 30 ,
                 fontWeight: semiBold,
               ),
             ),
             const SizedBox(height: 10),
             Text(
-              'Are you ready to explore the new\nworld of experiences?',
+              'Are you ready to experience the longevity\nscientific resort island.',
               textAlign: TextAlign.center,
               style: grayTextStyle.copyWith(
                 fontSize: 16,

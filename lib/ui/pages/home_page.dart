@@ -80,13 +80,13 @@ class HomePage extends StatelessWidget {
               title: 'Villa Three',
               location: 'Funadhooviligilla',
               star: '4.8',
-              imageUrl: 'https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870',
+              imageUrl: 'https://images.unsplash.com/photo-1586500038052-b831efc02314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
             ),
             DestinationCard(
               title: 'Villa Four',
               location: 'Maldives',
               star: '4.8',
-              imageUrl: 'https://images.unsplash.com/photo-1602217401731-1b9d5c2384f7?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774',
+              imageUrl: 'https://images.unsplash.com/photo-1586500036706-41963de24d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
             ),
           ],
         ),
@@ -102,7 +102,7 @@ class HomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'New This Year',
+            'Longevity Scientific Resort',
             style: blackTextStyle.copyWith(
               fontSize: 18,
               fontWeight: semiBold,
@@ -110,31 +110,31 @@ class HomePage extends StatelessWidget {
           ),
           const DestinationTile(
             imageUrl: 'https://images.unsplash.com/photo-1586500035847-8bb4c585cfb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-            title: 'Resort Island',
+            title: 'Longivity Resort',
             location: 'Maldives ',
             rating: '4.8',
           ),
           const DestinationTile(
             imageUrl: 'https://images.unsplash.com/photo-1601999705946-fbf42c3c6c66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80',
-            title: 'Resort Island',
+            title: 'Longivity Resort',
             location: 'Maldives ',
             rating: '4.8',
           ),
           const DestinationTile(
             imageUrl: 'https://images.unsplash.com/photo-1611987948529-c906964b8711?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80',
-            title: 'Resort Island',
+            title: 'Longivity Resort',
             location: 'Funadhooviligilla ',
             rating: '4.8',
           ),
           const DestinationTile(
             imageUrl: 'https://images.unsplash.com/photo-1624612285983-858906f9c786?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-            title: 'Resort Island',
+            title: 'Longivity Resort',
             location: 'Maldives ',
             rating: '4.8',
           ),
           const DestinationTile(
             imageUrl: 'https://images.unsplash.com/photo-1647729008415-a6f35619c736?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80',
-            title: 'Resort Island',
+            title: 'Longivity Resort',
             location: 'Gaafu Alif ',
             rating: '4.8',
           ),

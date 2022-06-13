@@ -1,6 +1,4 @@
 import 'package:longevity_resort/cubit/page_cubit.dart';
-import 'package:longevity_resort/ui/pages/bonus_page.dart';
-import 'package:longevity_resort/ui/pages/get_started_page.dart';
 import 'package:longevity_resort/ui/pages/main_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

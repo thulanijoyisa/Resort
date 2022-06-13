@@ -9,6 +9,7 @@ import '../../shared/theme.dart';
 class MainPage extends StatelessWidget {
   const MainPage({Key? key}) : super(key: key);
 
+  // ignore: non_constant_identifier_names
   Widget Navbar() {
     return Align(
         alignment: Alignment.bottomCenter,
@@ -39,11 +40,11 @@ class MainPage extends StatelessWidget {
     Widget buildContent(int currentIndex) {
       switch (currentIndex) {
         case 0:
-          return HomePage();
+          return const HomePage();
         case 1:
-          return SettingPage();
+          return const SettingPage();
         default:
-          return HomePage();
+          return const HomePage();
       }
     }
 

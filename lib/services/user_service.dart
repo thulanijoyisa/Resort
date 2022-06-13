@@ -2,7 +2,7 @@ import 'package:longevity_resort/models/user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class UserService {
-  CollectionReference _userRef = FirebaseFirestore.instance.collection('users');
+  final CollectionReference _userRef = FirebaseFirestore.instance.collection('users');
 
   Future<void> setUser(UserModel user) async {
     try {
@@ -13,7 +13,7 @@ class UserService {
         'balance': user.balance,
       });
     } catch (e) {
-      throw e;
+      rethrow;
     }
   }
 }

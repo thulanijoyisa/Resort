@@ -3,7 +3,7 @@ import 'package:longevity_resort/services/user_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {
-  FirebaseAuth _auth = FirebaseAuth.instance;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
 
   Future<UserModel> signUp({
     required String email,
@@ -30,7 +30,7 @@ class AuthService {
 
       return user;
     } catch (e) {
-      throw e;
+      rethrow;
     }
   }
 }

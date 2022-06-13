@@ -80,17 +80,17 @@ class BonusPage extends StatelessWidget {
             const SizedBox(height: 70),
             Text(
               'Big Bonus 🎉',
-              style: blackTextStyle.copyWith(fontSize: 32, fontWeight: medium),
+              style: blackTextStyle.copyWith(fontSize: 26, fontWeight: medium),
             ),
             const SizedBox(height: 10),
             Text(
-              'We give you 75% off when you use LONG & AGE cryto token',
-              style: grayTextStyle.copyWith(fontSize: 16),
+              'We give you 75% off when you use LONG & AGE cryto token \n purchase our crypto now!!!',
+              style: grayTextStyle.copyWith(fontSize: 15),
               textAlign: TextAlign.center,
             ),
             BtnPrimary(
                 text: 'Pay Now',
-                margin: EdgeInsets.only(top: 50),
+                margin: const EdgeInsets.only(top: 50),
                 width: 220,
                 onPressed: () {
                    Navigator.push(
