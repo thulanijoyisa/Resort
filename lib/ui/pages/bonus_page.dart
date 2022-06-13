@@ -46,14 +46,9 @@ class BonusPage extends StatelessWidget {
                     ),
                   ),
                   const Spacer(),
-                  Image.asset(
-                    'assets/icon_plane.png',
-                    width: 24,
-                    height: 24,
-                  ),
                   const SizedBox(width: 6),
                   Text(
-                    'Pay',
+                    'Card',
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: FontWeight.w500),
                   )
